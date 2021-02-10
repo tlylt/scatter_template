@@ -28,7 +28,7 @@ $(function () {
                 });
             });
 
-
+            console.log(sectorsData);
             chart = new Highcharts.chart('container', {
                 chart: {
                     type: 'packedbubble',
